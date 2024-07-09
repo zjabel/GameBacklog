@@ -1,6 +1,9 @@
 ﻿from django.urls import path
-from .views import hello_world
+from .views import UserController
 
 urlpatterns = [
-    path('hello_world/', hello_world, name='hello_world'),
+    path('user/', UserController.as_view(), name='create_user'),
+    path('user/<int:id>', UserController.as_view(), name='get_user'),
+    path('user/<int:id>', UserController.as_view(), name='delete_user'),
+    path('user/<int:id>', UserController.as_view(), name='update_user'),
 ]
