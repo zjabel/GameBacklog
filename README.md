@@ -2,7 +2,7 @@
 
 Today the project is still under nappies but we will be updating it little by little in our free time.
 
-<bold>The stack planned to use:</bold>
+<bold>Tech Stack</bold>
 <h2>Front-end</h2>
 <ul>
 <li>HTML</li>
